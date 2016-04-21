@@ -5,8 +5,17 @@
 	<title>Star Trek</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/audiojs/audio.min.js"></script>
 </head>
 <body>
+
+	<script>
+		audiojs.events.ready(function() {
+			var as = audiojs.createAll();
+		});
+	</script>
 	
+	<audio src="starTrek.mp3" preload="auto" />
+
 </body>
 </html>

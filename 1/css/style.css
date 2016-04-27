@@ -1,0 +1,19 @@
+.navbar-toggler:link {
+	outline: none !important;
+}
+.navbar-toggler:active {
+	outline: none !important;
+}
+.navbar-toggler:hover {
+	outline: none !important;
+}
+.navbar-toggler {
+	outline: none !important;
+}
+.navbar-toggler:visited {
+	outline: none !important;
+}
+.nav-list {
+	list-style: none;
+	float: left;
+}
